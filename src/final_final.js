@@ -21,8 +21,6 @@ function equal_to () {
 //  function to calcualte value
 function calci (a, oper, b) {
   switch (oper) {
-    case '+'
-      a + b
     case '-':
       return a - b
     case '*':
@@ -31,7 +29,7 @@ function calci (a, oper, b) {
       return a / b
     case '%':
       return a % b
-  
+  }}
 // when operator is clicked
 function operator_function (operator) {
   // Last value
